@@ -102,6 +102,7 @@ state_auto_order: True
 # returned, but setting state_verbose to True will return all states that
 # were checked
 #state_verbose: False
+state_output: mixed
 #
 # autoload_dynamic_modules Turns on automatic loading of modules found in the
 # environments on the master. This is turned on by default, to turn of

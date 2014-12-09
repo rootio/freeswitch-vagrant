@@ -29,7 +29,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     salt.run_highstate = true
     salt.pillar({
       "freeswitch" => {
-        "version" => "v1.4.6",
+        "version" => "8e47f3c660276bc653f6cb1ac2611d5345244bd9",
         "use_debs" => false,
       }
     })

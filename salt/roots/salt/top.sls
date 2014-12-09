@@ -1,3 +1,3 @@
 base:
   '*':
-    - freeswitch
+#    - freeswitch
